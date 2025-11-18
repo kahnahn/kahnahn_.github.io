@@ -1,7 +1,7 @@
-
 import { GoogleGenAI } from "@google/genai";
 
-// Fix: Use `process.env.API_KEY` as per coding guidelines.
+// Fix: Per coding guidelines, the API key must be obtained from process.env.API_KEY.
+// This change also resolves the TypeScript error on import.meta.env.
 if (!process.env.API_KEY) {
   console.warn("API_KEY environment variable not set. Gemini features will be disabled.");
 }
