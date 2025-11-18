@@ -1,0 +1,5 @@
+{
+  "name": "SAT Vocabulary Flashcards",
+  "description": "An interactive web application to help students learn the 1000 most common SAT words. Features flashcards with AI-generated examples, mini-tests after every 20 words, mock tests after every 50 words, and a final summary of challenging words.",
+  "requestFramePermissions": []
+}
